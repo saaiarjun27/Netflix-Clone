@@ -1,0 +1,96 @@
+header{
+    min-height: 100vh;
+    background-image:url(https://occ-0-987-999.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXErLwqyljXtI6mMH6VMnF6B1L4085vOdGb62ZhaqZTL04oFjCUhzdkkK434vs50cKZVHoPJ2pNc-JY4dSw0UoyBRAZiD7sNADpJ.jpg?r=615);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header:hover{
+    background-image: url(https://media.tenor.com/4ypWsbe1WRcAAAAC/wednesday-dance.gif);
+    transition: 1s;
+    transition-delay: 10s;
+}
+
+.header_inner_shadow{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(0deg,rgb(20,20,20,1) 0%, rgb(20,20,20,0) 100%), linear-gradient(180deg, rgb(20,20,20,1) 0%, rgb(20,20,20,0) 100%)
+}
+
+.header_content{
+    margin-left: 5vw;
+    padding-top: 15vw;
+} 
+
+.header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header_billboard{
+    margin-top: -12vh;
+    width: 24vw;
+    object-fit: cover;
+    z-index: 2;
+    position: relative;
+}
+
+.header_desc{
+    width: 50%;
+    height: 10vh;
+    color: azure;
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    margin-bottom: 0.1vw;
+    z-index: 2;
+    position: relative;
+}
+
+.header_buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+    z-index: 2;
+    position: relative;
+}
+
+.header_button{
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding:10px;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header_button svg{
+    margin-right: 0.4rem;
+
+}
+
+.play_button{
+    background-color: azure;
+    margin-right: 1rem;
+}
+.play_button:hover{
+    background-color: #e6e6e6;
+}
+.More_info_button{
+    background-color: rgb(30, 30, 30,0.947);
+    color: azure;
+}
+.More_info_button:hover{
+    background-color: rgb(30, 30, 30,0.6);
+}

@@ -1,0 +1,29 @@
+.row_wrapper{
+    color: azure;
+    margin-bottom: 10px;
+    z-index: 3;
+    margin-left: 5vw;
+}
+
+.row_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.row_card{
+    display: flex;
+    align-items: center;
+    height: 240px;
+    overflow-x: scroll;
+    color: azure;
+    margin-bottom: -3vh;
+}
+.row_card::-webkit-scrollbar {
+    display: none;
+}
+.row_card::-webkit-scrollbar-corner{
+    color: transparent;
+}

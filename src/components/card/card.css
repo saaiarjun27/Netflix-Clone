@@ -1,0 +1,13 @@
+.card_poster{
+    height: 200px;
+    border-radius: 5px;
+    object-fit:fill;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.card_poster:hover{
+    height: 235px;
+    position: relative;
+    transition-delay: 0.7s;
+}
